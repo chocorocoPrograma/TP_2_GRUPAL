@@ -1,3 +1,66 @@
-body {
+#centrarCaja {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cajaImg {
+    display: grid;
+    height: 400px;
+    width: 1080px;
+    grid-template-columns: 730px 350px;
+    grid-template-rows: 115px 285px;
+    background-color: rgb(9, 150, 150);
+
+}
+
+#img1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    height: 285px;
+    width: 730px;
+    background-color: aliceblue;
+}
+
+#img2 {
+    height: 400px;
+    width: 350px;
+    background-color: aqua;
+}
+
+
+
+.imgTipo1 {
+    padding: 0;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    margin: 7px 17px;
+    border-radius: 20%;
+}
+
+.imgTipo2 {
+    padding: 0;
+    margin: 20px;
+    border-radius: 20%;
+}
+
+#cat {
+    grid-column: 1 / 2;
+    height: 115px;
+    width: 730px;
     background-color: blue;
+    justify-content: center;
+
+}
+
+@font-face {
+    font-family: "calibri";
+    src: url("/css/fuentes/calibri_freefontdownload_org/calibri.ttf");
+}
+#titleC {
+    font-family:"calibri";
+    font: 50px;
+    padding: 20px;
+    text-decoration: none;
+
 }
