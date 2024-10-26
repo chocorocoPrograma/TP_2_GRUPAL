@@ -1,3 +1,8 @@
+body {
+  background: linear-gradient(20deg, #00bbff,#3ae9d5);
+
+}
+
 #centrarCaja {
     display: grid;
     flex-direction: column;
@@ -11,7 +16,6 @@
     width: 1080px;
     grid-template-columns: 730px 350px;
     grid-template-rows: 115px 285px;
-    background-color: rgb(9, 150, 150);
 
 }
 
@@ -20,35 +24,33 @@
     grid-row: 2 / 3;
     height: 285px;
     width: 730px;
-    background-color: aliceblue;
 }
 
 #img2 {
     height: 400px;
     width: 350px;
-    background-color: aqua;
 }
 
 
 
 .imgTipo1 {
     padding: 0;
-    border: 3px solid rgba(255, 255, 255, 0.5);
-    margin: 7px 17px;
+    border: 4px solid rgb(255, 255, 255);
+    margin: 6px 16px;
     border-radius: 20%;
 }
 
 .imgTipo2 {
+    position: absolute;
     padding: 0;
-    margin: 20px;
-    border-radius: 20%;
+    margin: 30px 20px 20px 10px;
+    border-radius: 10%;
 }
 
 #cat {
     grid-column: 1 / 2;
     height: 115px;
     width: 730px;
-    background-color: blue;
     justify-content: center;
 
 }
@@ -64,3 +66,88 @@
     text-decoration: none;
 
 }
+
+@keyframes cambioOp{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes cambioOp1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes cambioBor{
+    0%{
+        border-color: #00bbff00;
+    }
+    100%{
+        border-color: solid rgb(255, 255, 255,);
+    }
+}
+#borde1{
+    animation: cambioBor  3s;
+}
+
+/*#muestra3{
+    animation: cambioOp 3s 1s, cambioOp1 3s 1s;
+}
+#muestra2{
+    animation: cambioOp  1s;
+    animation-delay: 4s;
+}
+#muestra1{   
+    opacity: 0;  
+    animation: cambioOp 1s;
+    animation-delay: 6s;
+}
+
+#muestra4{    
+    opacity: 0;
+    animation: cambioOp 1s;
+    animation-delay: 9s;
+    animation-duration: 6s;
+}
+#muestra5{    
+    opacity: 0;
+    animation: cambioOp 1s;
+    animation-delay: 12s;
+    animation-duration: 6s;
+}
+#muestra6{    
+    opacity: 0;
+    animation: cambioOp 1s;
+    animation-delay: 15s;
+    animation-duration: 6s;
+}
+#muestra7{    
+    opacity: 0;
+    animation: cambioOp 1s;
+    animation-delay: 18s;
+    animation-duration: 6s;
+}
+#muestra8{    
+    opacity: 0;
+    animation: cambioOp 1s;
+    animation-delay: 21s;
+    animation-duration: 6s;
+}
+#muestra9{    
+    opacity: 0;
+    animation: cambioOp 1s;
+    animation-delay: 24s;
+    animation-duration: 6s;
+}
+#muestra10{    
+    opacity: 0;
+    animation: cambioOp 1s;
+    animation-delay: 27s;
+    animation-duration: 6s;
+} */
