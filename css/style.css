@@ -1,1 +1,27 @@
 /* CSS para darle estilo a la floreria*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 5px 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#info-ramos {
+    padding: 50px 20px;
+    text-align: left;
+    background-color: rgb(230, 139, 35);
+}
+
+#registrarse {
+    padding: 50px 20px;
+    text-align: left;
+    background-color: rgb(35, 230, 129);
+}
