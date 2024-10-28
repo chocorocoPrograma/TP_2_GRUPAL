@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(20deg, #00bbff,#3ae9d5);
+    background: linear-gradient(20deg, #00bbff, #3ae9d5);
 
 }
 
@@ -12,22 +12,29 @@ body {
 
 #cajaImg {
     display: grid;
-    height: 400px;
+    height: 430px;
     width: 1080px;
     grid-template-columns: 730px 350px;
-    grid-template-rows: 115px 285px;
+    grid-template-rows: 100px 140px 25px 140px 25px;
 
 }
 
-#img1 {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    height: 285px;
+#img1_e1 {
+    grid-column: 1;
+    grid-row: 2;
+    height: 140px;
+    width: 730px;
+}
+
+#img1_e2 {
+    grid-column: 1;
+    grid-row: 4;
+    height: 140px;
     width: 730px;
 }
 
 #img2 {
-    height: 400px;
+    height: 430px;
     width: 350px;
 }
 
@@ -49,7 +56,7 @@ body {
 
 #cat {
     grid-column: 1 / 2;
-    height: 115px;
+    height: 100px;
     width: 730px;
     justify-content: center;
 
@@ -59,41 +66,48 @@ body {
     font-family: "calibri";
     src: url("/css/fuentes/calibri_freefontdownload_org/calibri.ttf");
 }
+
 #titleC {
-    font-family:"calibri";
+    font-family: "calibri";
     font: 50px;
     padding: 20px;
     text-decoration: none;
+    color: #284f52;
 
 }
 
-@keyframes cambioOp{
-    0%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
-}
-@keyframes cambioOp1{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+#nombres1 {
+    grid-area: 3 / 1;
+    display: grid;
+    grid-template-columns: 146px 146px 146px 146px 146px;
+    grid-template-rows: 25px;
+    height: 25px;
+    width: 730px;
+    align-items: center;
+    justify-items: center;
 }
 
-@keyframes cambioBor{
-    0%{
-        border-color: #00bbff00;
-    }
-    100%{
-        border-color: solid rgb(255, 255, 255,);
-    }
+#nombres2 {
+    grid-area: 5 / 1;
+    display: grid;
+    grid-template-columns: 146px 146px 146px 146px 146px;
+    grid-template-rows: 25px;
+    height: 25px;
+    width: 730px;
+    align-items: center;
+    justify-items: center;
 }
-#borde1{
-    animation: cambioBor  3s;
+
+#n6 {
+    grid-area: 1 /1;
+}
+
+span {
+    color: #284f52;
+    font-family: "calibri";
+    font: bold solid 10px;
+    padding: 10px;
+    text-decoration: none;
 }
 
 /*#muestra3{
