@@ -1,19 +1,5 @@
 /* CSS para darle estilo a la floreria*/
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: aquamarine;
-    padding: 5px 10px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
 #info-ramos {
     padding: 20px 20px;
     text-align: left;
@@ -22,8 +8,8 @@ nav ul {
 
 #registrarse {
     padding: 20px 20px;
-    text-align: left;
-    background-color: rgb(35, 230, 129);
+    text-align: center;
+    background-color: rgb(160, 30, 56);
 }
 
 #registrarse h2 {
@@ -39,4 +25,20 @@ nav ul {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
+}
+
+.registrarse #nombre,
+.registrarse #contra {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #e51f1f;
+    border-radius: 20px;
+}
+
+.registrarse #registrarse {
+    width: 30%;
+    border-radius: 20px;
+    border: 5px solid #e51f1f;
+    background-color: rgb(242, 151, 76);
 }
