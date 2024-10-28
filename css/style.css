@@ -42,7 +42,8 @@
     margin: 20px;
     padding: 20px 20px;
     text-align: center;
-    background-color: #49ba9c;
+    background: linear-gradient(90deg, #28b18c, #00e691);
+    /*background-color: #49ba9c;*/
     border-radius: 10px;
 }
 
@@ -85,10 +86,11 @@
     border-radius: 10px;
 }
 
-.registrarse #registrarse {
+.registrarse #registro {
     width: 30%;
+    padding: 10px;
     color: antiquewhite;
-    border-radius: 10px;
+    border-radius: 150px;
     border: 1px solid #1f3644;
-    background-color: rgb(145, 117, 176);
+    background: linear-gradient(135deg, rgb(0, 204, 99), #9248ad);
 }
