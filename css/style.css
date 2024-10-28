@@ -9,8 +9,14 @@ body {
     margin: 20px;
     padding: 20px 20px;
     text-align: left;
-    background-color: #28b18c;
+    background-color: #88ead0;
     border-radius: 10px;
+}
+
+#info-ramos h2,
+#nosotros h2 {
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 #nosotros {
@@ -38,6 +44,12 @@ body {
     font-size: 1.5rem;
 }
 
+#registrarse p,
+#nosotros p,
+#info-ramos p {
+    font-size: 1rem;
+}
+
 
 /* Para cambiar largo de la barra del formulario */
 
@@ -57,13 +69,13 @@ body {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 5px solid #e51f1f;
+    border: 1px solid #1f3644;
     border-radius: 10px;
 }
 
 .registrarse #registrarse {
     width: 30%;
     border-radius: 10px;
-    border: 5px solid #e51f1f;
+    border: 1px solid #1f3644;
     background-color: rgb(242, 151, 76);
 }
