@@ -46,7 +46,7 @@ nav a:hover {
     text-align: center;
     font-style: oblique;
     height: 20px;
-    color: #3b275f ;
+    color: #6a48aa ;
 }
 
 h1 {
@@ -61,4 +61,16 @@ h1 {
 
 body {
     background:  #65d4b6;
+}
+
+footer p {
+    font-style:oblique;
+    font-size: 10px;
+    color:  #ffffffc7 ;
+    text-align: center;
+    
+}
+
+footer div:hover{
+    background:  rgba(36, 143, 84, 0.945);
 }
