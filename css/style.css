@@ -4,6 +4,9 @@ body {
     background-color: #65d4b6;
 }
 
+
+/* estilo para seccion Informacion sobre los ramos */
+
 #info-ramos {
     color: #1f3644;
     margin: 20px;
@@ -13,7 +16,14 @@ body {
     border-radius: 10px;
 }
 
-#info-ramos h2,
+#info-ramos h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* estilo para seccion nosotros */
+
 #nosotros h2 {
     text-align: center;
     font-size: 1.5rem;
@@ -27,6 +37,9 @@ body {
     background-color: #28b18c;
     border-radius: 10px;
 }
+
+
+/* estilo para seccion registro */
 
 #registrarse {
     color: #1f3644;
@@ -43,6 +56,9 @@ body {
 #registrarse h2 {
     font-size: 1.5rem;
 }
+
+
+/* CSS para el tamaño de los parrafos */
 
 #registrarse p,
 #nosotros p,
