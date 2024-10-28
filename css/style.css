@@ -1,9 +1,5 @@
 /* CSS para darle estilo a la floreria*/
 
-body {
-    background-color: #65d4b6;
-}
-
 
 /* estilo para seccion Informacion sobre los ramos */
 
@@ -46,7 +42,7 @@ body {
     margin: 20px;
     padding: 20px 20px;
     text-align: center;
-    background-color: #28b18c;
+    background-color: #49ba9c;
     border-radius: 10px;
 }
 
@@ -91,7 +87,8 @@ body {
 
 .registrarse #registrarse {
     width: 30%;
+    color: antiquewhite;
     border-radius: 10px;
     border: 1px solid #1f3644;
-    background-color: rgb(242, 151, 76);
+    background-color: rgb(145, 117, 176);
 }
