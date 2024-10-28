@@ -8,12 +8,15 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(160, 30, 56);
+    background-color: rgba(36, 143, 84, 0.945);
     padding: 5px 40px;
 }
 
 header .logo img {
     height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 nav ul{
