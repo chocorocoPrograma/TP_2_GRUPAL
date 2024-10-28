@@ -1,20 +1,45 @@
 /* CSS para darle estilo a la floreria*/
 
+body {
+    background-color: #65d4b6;
+}
+
 #info-ramos {
+    color: #1f3644;
+    margin: 20px;
     padding: 20px 20px;
     text-align: left;
-    background-color: rgb(230, 139, 35);
+    background-color: #28b18c;
+    border-radius: 10px;
+}
+
+#nosotros {
+    color: #1f3644;
+    margin: 20px;
+    padding: 20px 20px;
+    text-align: left;
+    background-color: #28b18c;
+    border-radius: 10px;
 }
 
 #registrarse {
+    color: #1f3644;
+    margin: 20px;
     padding: 20px 20px;
     text-align: center;
-    background-color: rgb(160, 30, 56);
+    background-color: #28b18c;
+    border-radius: 10px;
 }
+
+
+/* CSS para el tamaño del titulo */
 
 #registrarse h2 {
     font-size: 1.5rem;
 }
+
+
+/* Para cambiar largo de la barra del formulario */
 
 .registrarse form {
     max-width: 600px;
@@ -33,12 +58,12 @@
     padding: 10px;
     margin-bottom: 10px;
     border: 5px solid #e51f1f;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .registrarse #registrarse {
     width: 30%;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 5px solid #e51f1f;
     background-color: rgb(242, 151, 76);
 }
