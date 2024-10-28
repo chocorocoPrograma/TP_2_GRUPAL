@@ -29,3 +29,14 @@ nav ul {
 #registrarse h2 {
     font-size: 1.5rem;
 }
+
+.registrarse form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.registrarse label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
