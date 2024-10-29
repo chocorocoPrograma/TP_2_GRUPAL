@@ -1,3 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(36, 143, 84, 0.945);
+    padding: 5px 40px;
+}
+
+header .logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    float: right;
+    margin: 0px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-style: italic;
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+}
+
+.contenido-inicio p {
+    text-align: center;
+    font-style: oblique;
+    height: 20px;
+    color: #6a48aa ;
+    color: #3b275f;
+}
+
+h1 {
+    font-family: Cambria;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.959);
+    text-align: center;
+    text-shadow: 10px 10px 4px #cafff8;
+}
+
+body {
+    background:  #65d4b6;
+}
+
+
 body {
     background: linear-gradient(20deg, #00bbff, #3ae9d5);
 
@@ -173,81 +232,6 @@ animation-delay: 8s;
     animation: cambioOp 3s;
 animation-delay: 9s;
 } 
-/* CSS para darle estilo a la floreria*/
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(36, 143, 84, 0.945);
-    padding: 5px 40px;
-}
-
-header .logo img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    float: right;
-    margin: 0px 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: aliceblue;
-    font-style: italic;
-}
-
-nav a:hover {
-    text-decoration-line: underline;
-}
-
-.contenido-inicio p {
-    text-align: center;
-    font-style: oblique;
-    height: 20px;
-<<<<<<< HEAD
-    color: #6a48aa ;
-=======
-    color: #3b275f;
->>>>>>> ea7b8887ccce95369daedfea3603a249d347d880
-}
-
-h1 {
-    font-family: Cambria;
-    font-size: 60px;
-    color: rgba(255, 255, 255, 0.959);
-    text-align: center;
-    text-shadow: 10px 10px 4px #cafff8;
-}
-
-<<<<<<< HEAD
-body {
-    background:  #65d4b6;
-}
-
-footer p {
-    font-style:oblique;
-    font-size: 10px;
-    color:  #ffffffc7 ;
-    text-align: center;
-    
-}
-
-footer div:hover{
-    background:  rgba(36, 143, 84, 0.945);
-=======
 
 /* estilo para seccion Informacion sobre los ramos */
 
@@ -340,5 +324,18 @@ footer div:hover{
     border-radius: 150px;
     border: 1px solid #1f3644;
     background: linear-gradient(135deg, rgb(0, 204, 99), #9248ad);
->>>>>>> ea7b8887ccce95369daedfea3603a249d347d880
 }
+
+ /*pie de pagina*/
+
+ footer p {
+    font-style:oblique;
+    font-size: 10px;
+    color:  #ffffffc7 ;
+    text-align: center;
+    
+}
+
+footer div:hover{
+    background:  rgba(36, 143, 84, 0.945);
+}    
