@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     background: linear-gradient(20deg, #00bbff, #3ae9d5);
 
@@ -174,7 +173,6 @@ animation-delay: 8s;
     animation: cambioOp 3s;
 animation-delay: 9s;
 } 
-=======
 /* CSS para darle estilo a la floreria*/
 
 * {
@@ -327,4 +325,3 @@ body {
     border: 1px solid #1f3644;
     background: linear-gradient(135deg, rgb(0, 204, 99), #9248ad);
 }
->>>>>>> 21183440f2bf147ee880007758bbdb82d7649df2
