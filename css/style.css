@@ -2,6 +2,9 @@ body {
     background: linear-gradient(20deg, #00bbff, #3ae9d5);
 
 }
+body {
+    background: #65d4b6;
+}
 
 #centrarCaja {
     display: grid;
@@ -73,7 +76,7 @@ body {
     padding: 20px;
     text-decoration: none;
     color: #284f52;
-    font-size: 30px;
+    font-size: 35px;
 
 }
 
@@ -223,10 +226,6 @@ h1 {
     color: rgba(255, 255, 255, 0.959);
     text-align: center;
     text-shadow: 10px 10px 4px #cafff8;
-}
-
-body {
-    background: #65d4b6;
 }
 
 
