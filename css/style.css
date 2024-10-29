@@ -64,7 +64,7 @@ body {
 
 @font-face {
     font-family: "calibri";
-    src: url("/css/fuentes/calibri_freefontdownload_org/calibri.ttf");
+    src: url("fuentes/calibri_freefontdownload_org/calibri.ttf");
 }
 
 #titleC {
