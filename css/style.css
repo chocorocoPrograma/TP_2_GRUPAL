@@ -111,6 +111,18 @@ span {
     text-decoration: none;
 }
 
+@keyframes cambioOp {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
 /*#muestra3{
     animation: cambioOp 3s 1s, cambioOp1 3s 1s;
 }
