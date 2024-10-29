@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: linear-gradient(20deg, #00bbff, #3ae9d5);
 
@@ -173,3 +174,157 @@ animation-delay: 8s;
     animation: cambioOp 3s;
 animation-delay: 9s;
 } 
+=======
+/* CSS para darle estilo a la floreria*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(36, 143, 84, 0.945);
+    padding: 5px 40px;
+}
+
+header .logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    float: right;
+    margin: 0px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-style: italic;
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+}
+
+.contenido-inicio p {
+    text-align: center;
+    font-style: oblique;
+    height: 20px;
+    color: #3b275f;
+}
+
+h1 {
+    font-family: Cambria;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.959);
+    text-align: center;
+    text-shadow: 10px 10px 4px #cafff8;
+}
+
+body {
+    background: #65d4b6;
+}
+
+
+/* estilo para seccion Informacion sobre los ramos */
+
+#info-ramos {
+    color: #1f3644;
+    margin: 20px;
+    padding: 20px 20px;
+    text-align: left;
+    background-color: #88ead0;
+    border-radius: 10px;
+}
+
+#info-ramos h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* estilo para seccion nosotros */
+
+#nosotros h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#nosotros {
+    color: #1f3644;
+    margin: 20px;
+    padding: 20px 20px;
+    text-align: left;
+    background-color: #28b18c;
+    border-radius: 10px;
+}
+
+
+/* estilo para seccion registro */
+
+#registrarse {
+    color: #1f3644;
+    margin: 20px;
+    padding: 20px 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #28b18c, #00e691);
+    border-radius: 10px;
+}
+
+
+/* CSS para el tamaño del titulo */
+
+#registrarse h2 {
+    font-size: 1.5rem;
+}
+
+
+/* CSS para el tamaño de los parrafos */
+
+#registrarse p,
+#nosotros p,
+#info-ramos p {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+/* Para cambiar largo de la barra del formulario */
+
+.registrarse form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.registrarse label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.registrarse #nombre,
+.registrarse #contra {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #1f3644;
+    border-radius: 10px;
+}
+
+.registrarse #registrarse {
+    width: 30%;
+    color: antiquewhite;
+    border-radius: 150px;
+    border: 1px solid #1f3644;
+    background: linear-gradient(135deg, rgb(0, 204, 99), #9248ad);
+}
+>>>>>>> 21183440f2bf147ee880007758bbdb82d7649df2
