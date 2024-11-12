@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="registro_estilo.css">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
 
             <nav>
                 <ul>
-                    <li><a href="Inicio">Inicio</a></li>
+                    <li><a href="file:///C:/Users/Lenovo/Desktop/winderman/TP%202%20grupal/TP_2_GRUPAL/index.html">Inicio</a></li>
                     <li><a href="Registro">Resgistrarse</a></li>
                     <li><a href="Pedido">Pedido</a></li>
                     <li><a href="Nosotros"> nosotros</a></li>
@@ -43,18 +44,21 @@
         <label for="usuario">Elegir nombre de usuario: </label>
         <input type="text" name="usuario" id="usuario">
 
-        <label for="contra">Nueva ontraseña: </label>
+        <label for="contra">Nueva contraseña: </label>
         <input type="password" name="contra" id="contra">
 
         <label for="confirmar">Confirmar contraseña: </label>
         <input type="text" name="confirmar" id="confirmar">
 
-        <input type="checkbox" name="noti" id="noti">
-        <label for="noti">Recibir notificaciones </label>
+        <input type="checkbox" name="notificar" id="notificar">
+        <label for="notificar">Recibir notificaciones</label>
 
 
         <input type="checkbox" name="terminos" id="terminos">
-        <label for="terminos">Acepto los términos y condiciones </label>
+        <label for="terminos">Acepto los términos y condiciones</label>
+
+        <input type="submit" id="crear" value="Crear cuenta">
+        <input type="reset" id="cancelar" value="Cancelar">
 
     </form>
 </body>
