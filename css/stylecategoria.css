@@ -39,9 +39,16 @@ body {
     background: #853a76;
 }
 
+#titulo h1 {
+    font-family:'Helvetica';
+    font-size: 33px;
+    color: #277647;
+    text-align: center;
+}
 
 #titulo h2 {
     font-family: 'Tahoma';
     font-size: 20px;
     color:  #b4cc4e;
+    text-align: left;
 }
