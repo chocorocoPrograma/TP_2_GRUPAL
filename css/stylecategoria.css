@@ -70,3 +70,8 @@ h2 {
     float: left;
     width: 350px;
 }
+
+div.img productos{
+    width: 100%;
+    height: auto;
+}
