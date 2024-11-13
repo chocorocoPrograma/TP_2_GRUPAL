@@ -36,14 +36,25 @@ nav a:hover {
 }
 
 body {
-    background: #853a76;
+    background-position: center;
+    background-color: #853a76;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #505050;
+    font-family: "Roboto",sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-transform: none
 }
 
 #titulo h1 {
     font-family:'Helvetica';
     font-size: 33px;
-    color: #277647;
+    color: #ffffff;
     text-align: center;
+    cursor: pointer;
+    
 }
 
 #titulo h2 {
