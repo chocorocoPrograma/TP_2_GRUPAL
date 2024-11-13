@@ -7,7 +7,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(36, 143, 84, 0.945);
+    background-color: #b4cc4e;
     padding: 5px 40px;
 }
 
@@ -45,15 +45,15 @@ nav a:hover {
 }
 
 h1 {
-    font-family: Cambria;
-    font-size: 60px;
-    color: rgba(255, 255, 255, 0.959);
+    font-family:'Franklin Gothic Medium';
+    font-size: 50px;
+    color:#4b0c3b;
     text-align: center;
     text-shadow: 10px 10px 4px #cafff8;
 }
 
 body {
-    background:  #65d4b6;
+    background: #853a76;
 }
 
 
@@ -339,3 +339,5 @@ animation-delay: 9s;
 footer div:hover{
     background:  rgba(36, 143, 84, 0.945);
 }    
+
+/*Pestaña Categoria*/
