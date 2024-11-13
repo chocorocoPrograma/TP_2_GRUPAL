@@ -35,17 +35,13 @@ nav a:hover {
     text-decoration-line: underline;
 }
 
+body {
+    background: #853a76;
+}
+
+
 #titulo h2 {
     font-family: 'Tahoma';
     font-size: 20px;
     color:  #b4cc4e;
-    text-align: left;
 }
-
-div{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    margin: 20px;
-}
-
