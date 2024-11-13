@@ -9,3 +9,11 @@
     color:  #b4cc4e;
     text-align: left;
 }
+
+#img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 20px;
+}
+
