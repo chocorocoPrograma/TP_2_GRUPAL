@@ -48,7 +48,7 @@ body {
     text-transform: none
 }
 
-#titulo h1 {
+h1 {
     font-family:'Helvetica';
     font-size: 33px;
     color: #ffffff;
@@ -57,12 +57,16 @@ body {
     
 }
 
-#titulo h2 {
+h2 {
     font-family: 'Tahoma';
     font-size: 20px;
     color:  #b4cc4e;
     text-align: left;
 }
 
-
-
+#img{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 floralwhite, 0 6px 20px 0 rgb(0, 0,0,0.19);
+    float: left;
+    width: 350px;
+}
