@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crear Cuenta</title>
+    <title>Registrarme</title>
     <link rel="stylesheet" href="registro_estilo.css">
 </head>
 
@@ -20,47 +20,62 @@
                     <li><a href="file:///C:/Users/Lenovo/Desktop/winderman/TP%202%20grupal/TP_2_GRUPAL/index.html">Inicio</a></li>
                     <li><a href="Registro">Resgistrarse</a></li>
                     <li><a href="Pedido">Pedido</a></li>
-                    <li><a href="Nosotros"> nosotros</a></li>
+                    <li><a href="Nosotros">Nosotros</a></li>
                 </ul>
             </nav>
         </header>
 
     </header>
 
-    <h1>Registrarme</h1>
-    <form>
-        <label for="nom">Nombre: </label>
-        <input type="text" name="nom" id="nom">
+    <section class="titulo">
+        <div class="encabezado">
+            <h1>Flores Encantadas</h1>
+            <p>Personalizá el ramo de tus sueños!</p>
+        </div>
+    </section>
+
+    <section id="registro" class="registro">
+        <h2>Registrarme</h2>
+        <form>
+            <label for="nom">Nombre: </label>
+            <input type="text" name="nom" id="nom">
 
 
-        <label for="ape">Apellido: </label>
-        <input type="text" name="ape" id="ape">
+            <label for="ape">Apellido: </label>
+            <input type="text" name="ape" id="ape">
 
 
-        <label for="email">Correo electrónico: </label>
-        <input type="text" name="email" id="email">
+            <label for="email">Correo electrónico: </label>
+            <input type="text" name="email" id="email">
 
 
-        <label for="usuario">Elegir nombre de usuario: </label>
-        <input type="text" name="usuario" id="usuario">
+            <label for="usuario">Elegir nombre de usuario: </label>
+            <input type="text" name="usuario" id="usuario">
 
-        <label for="contra">Nueva contraseña: </label>
-        <input type="password" name="contra" id="contra">
+            <label for="contra">Nueva contraseña: </label>
+            <input type="password" name="contra" id="contra">
 
-        <label for="confirmar">Confirmar contraseña: </label>
-        <input type="text" name="confirmar" id="confirmar">
+            <label for="confirmar">Confirmar contraseña: </label>
+            <input type="text" name="confirmar" id="confirmar">
 
-        <input type="checkbox" name="notificar" id="notificar">
-        <label for="notificar">Recibir notificaciones</label>
+            <input type="checkbox" name="notificar" id="notificar">
+            <label for="notificar">Recibir notificaciones</label>
 
 
-        <input type="checkbox" name="terminos" id="terminos">
-        <label for="terminos">Acepto los términos y condiciones</label>
+            <input type="checkbox" name="terminos" id="terminos">
+            <label for="terminos">Acepto los términos y condiciones</label>
 
-        <input type="submit" id="crear" value="Crear cuenta">
-        <input type="reset" id="cancelar" value="Cancelar">
+            <input type="submit" id="crear" value="Crear cuenta">
+            <input type="reset" id="cancelar" value="Cancelar">
+        </form>
+        <button id="abrirCartel">Cancelar</button>
 
-    </form>
+        <dialog open id="cartel">
+            <h3>Cancelar registro</h3>
+            <p>¿Quiere cancelar la creación de la cuenta?</p>
+            <button id="cerrarCartel">Si</button>
+        </dialog>
+    </section>
 </body>
 
 </html>
