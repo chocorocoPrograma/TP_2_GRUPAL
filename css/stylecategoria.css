@@ -71,3 +71,18 @@ div .img{
     width: 350px;
 }
 
+div.img img{
+    width: 100%;
+    height: auto;
+}
+
+div.img: :hover{
+   
+}
+
+div.texto_info{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    padding: 10px;
+
+}
