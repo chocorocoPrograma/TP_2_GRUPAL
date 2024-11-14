@@ -40,7 +40,7 @@ nav a:hover {
     text-align: center;
     font-style: oblique;
     height: 20px;
-    color: #6a48aa ;
+    color: #6a48aa;
     color: #3b275f;
 }
 
@@ -53,14 +53,13 @@ h1 {
 }
 
 body {
-    background:  #65d4b6;
+    background: #65d4b6;
 }
-
 
 body {
     background: linear-gradient(20deg, #00bbff, #3ae9d5);
-
 }
+
 body {
     background: #65d4b6;
 }
@@ -78,7 +77,6 @@ body {
     width: 1080px;
     grid-template-columns: 730px 350px;
     grid-template-rows: 100px 140px 25px 140px 25px;
-
 }
 
 #img1_e1 {
@@ -100,8 +98,6 @@ body {
     width: 350px;
 }
 
-
-
 .imgTipo1 {
     padding: 0;
     border: 4px solid rgb(255, 255, 255);
@@ -121,7 +117,6 @@ body {
     height: 100px;
     width: 730px;
     justify-content: center;
-
 }
 
 @font-face {
@@ -136,7 +131,6 @@ body {
     text-decoration: none;
     color: #284f52;
     font-size: 35px;
-
 }
 
 #nombres1 {
@@ -174,64 +168,71 @@ span {
 }
 
 @keyframes cambioOp {
-    0%{
+    0% {
         opacity: 0;
     }
-    50%{
+    50% {
         opacity: 1;
     }
-    100%{
+    100% {
         opacity: 1;
     }
-    
 }
 
-#muestra2{
-    opacity: 0;  
+#muestra2 {
+    opacity: 0;
     animation: cambioOp 3s;
     animation-delay: 1s;
 }
-#muestra3{
+
+#muestra3 {
     opacity: 0;
     animation: cambioOp 3s;
     animation-delay: 2s;
 }
 
-#muestra4{    
+#muestra4 {
     opacity: 0;
     animation: cambioOp 3s;
     animation-delay: 3s;
 }
-#muestra5{    
+
+#muestra5 {
     opacity: 0;
     animation: cambioOp 3s;
     animation-delay: 4s;
 }
-#muestra6{    
+
+#muestra6 {
     opacity: 0;
     animation: cambioOp 3s;
-animation-delay: 5s;
+    animation-delay: 5s;
 }
-#muestra7{    
+
+#muestra7 {
     opacity: 0;
     animation: cambioOp 3s;
-animation-delay: 6s;
+    animation-delay: 6s;
 }
-#muestra8{    
+
+#muestra8 {
     opacity: 0;
     animation: cambioOp 3s;
-animation-delay: 7s;
+    animation-delay: 7s;
 }
-#muestra9{    
+
+#muestra9 {
     opacity: 0;
     animation: cambioOp 3s;
-animation-delay: 8s;
+    animation-delay: 8s;
 }
-#muestra10{    
+
+#muestra10 {
     opacity: 0;
     animation: cambioOp 3s;
-animation-delay: 9s;
-} 
+    animation-delay: 9s;
+}
+
 
 /* estilo para seccion Informacion sobre los ramos */
 
@@ -326,16 +327,16 @@ animation-delay: 9s;
     background: linear-gradient(135deg, rgb(0, 204, 99), #9248ad);
 }
 
- /*pie de pagina*/
 
- footer p {
-    font-style:oblique;
+/*pie de pagina*/
+
+footer p {
+    font-style: oblique;
     font-size: 15px;
-    color:  #ffffffc7 ;
+    color: #ffffffc7;
     text-align: center;
-    
 }
 
-footer div:hover{
-    background:  rgba(36, 143, 84, 0.945);
-}    
+footer div:hover {
+    background: rgba(36, 143, 84, 0.945);
+}
