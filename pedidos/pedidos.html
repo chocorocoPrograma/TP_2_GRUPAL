@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="css/style.css" />
+
 </head>
 <body>
-    <!--agregar encabezado-->
+    <header>
+        <div class="logo">
+            <img src="imagenes/logoflor.png.jpeg" alt="flore.jpeg" />
+        </div>
+        <header>
+
+            <nav>
+                <ul>
+                    <li><a href="Inicio">Inicio</a></li>
+                    <li><a href="Registro">Resgistrarse</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    </header>
+
     <section id="cent_inicio">
         <div id="inicio">
             <h1>Haga su pedido</h1>
@@ -150,6 +167,54 @@
                 <input type="radio" name="tLetra" id="cursiva" value="cursiva">
                 <label for="imprenta">Imprenta</label>
                 <input type="radio" name="tLetra" id="imprenta" value="imprenta">
+
+                <label for="colorP">Color papel</label>
+                <select name="colorP" id="colorP">
+                   <option value="blanco">Blanco</option>
+                    <option value="negro">Negro</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="azul">Azul</option>
+                    <option value="celes">Celeste</option>
+                    <option value="rosa">Rosado</option>
+                    <option value="fucs">Fucsia</option>
+                    <option value="verdeL">Verde lima</option>
+                    <option value="verdeO">Verde oscuro</option>
+                    <option value="viol">Violeta</option>
+                    <option value="lila">Lila</option>
+                    <option value="beige">Beige</option>
+                    <option value="ama">Amarillo</option>
+                    <option value="nara">Naranja</option>
+                    <option value="marronC">Marron claro</option>
+                    <option value="marronO">Marron oscuro</option>
+                    <option value="gris">Gris</option>
+                    <option value="salmon">Salmon</option>
+                    <option value="plat">Plateado</option>
+                    <option value="dor">Dorado</option>
+                </select>
+                <label for="colorL">Color letra</label>
+                <select name="colorL" id="colorL">
+                    <option value="negro">Negro</option>
+                    <option value="blanco">Blanco</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="azul">Azul</option>
+                    <option value="celes">Celeste</option>
+                    <option value="rosa">Rosado</option>
+                    <option value="fucs">Fucsia</option>
+                    <option value="verdeL">Verde lima</option>
+                    <option value="verdeO">Verde oscuro</option>
+                    <option value="viol">Violeta</option>
+                    <option value="lila">Lila</option>
+                    <option value="beige">Beige</option>
+                    <option value="ama">Amarillo</option>
+                    <option value="nara">Naranja</option>
+                    <option value="marronC">Marron claro</option>
+                    <option value="marronO">Marron oscuro</option>
+                    <option value="gris">Gris</option>
+                    <option value="salmon">Salmon</option>
+                    <option value="plat">Plateado</option>
+                    <option value="dor">Dorado</option>
+                </select>
+            
             </div>
         </div>
     </section>
