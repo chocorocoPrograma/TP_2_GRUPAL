@@ -78,3 +78,12 @@
       display: block;
       margin-bottom: 10px;
   }
+  
+  #crear {
+      border: none;
+      padding: 10px;
+      color: #b4cc4e;
+      font-size: 16px;
+      transform: .3s ease;
+      background-color: #4b0c3b;
+  }
