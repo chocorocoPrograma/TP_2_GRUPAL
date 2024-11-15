@@ -60,6 +60,7 @@
       align-items: center;
       color: #b4cc4e;
       padding-left: 30px;
+      text-shadow: #277647;
   }
   
   .registro form {
@@ -80,10 +81,15 @@
   }
   
   #crear {
-      border: none;
       padding: 10px;
       color: #b4cc4e;
       font-size: 16px;
       transform: .3s ease;
       background-color: #4b0c3b;
+      border-radius: 10px;
+  }
+  
+  #crear:hover {
+      color: #4b0c3b;
+      background-color: #b4cc4e;
   }
