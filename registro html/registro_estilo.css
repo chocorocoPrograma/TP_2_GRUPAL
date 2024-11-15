@@ -1,95 +1,98 @@
-  body {
-      margin: 0;
-      padding: 0;
-      background-color: #277647;
-  }
-  
-  header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #b4cc4e;
-      padding: 10px 20px;
-  }
-  
-  header .logo img {
-      height: 50px;
-      width: 50px;
-      border-radius: 50%;
-      overflow: hidden;
-  }
-  
-  nav ul {
-      list-style: none;
-      display: flex;
-      gap: 30px;
-      float: right;
-      margin: 0px 10px;
-  }
-  
-  nav a {
-      text-decoration: none;
-      color: aliceblue;
-      font-style: italic;
-  }
-  
-  nav a:hover {
-      text-decoration-line: underline;
-  }
-  
-  .titulo {
-      font-style: italic;
-      color: aliceblue;
-  }
-  
-  .registro {
-      padding: 10px 20px;
-      background-color: #4b0c3b;
-      color: antiquewhite;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: left;
-  }
-  
-  .registro h2 {
-      display: flex;
-      letter-spacing: -1;
-      position: relative;
-      font-size: 3rem;
-      align-items: center;
-      color: #b4cc4e;
-      padding-left: 30px;
-      text-shadow: #277647;
-  }
-  
-  .registro form {
-      display: flex;
-      border-radius: 20px;
-      flex-direction: column;
-      gap: 10px;
-      padding: 20px 30px;
-      background: linear-gradient(170deg, #853a76, #277647);
-      border-radius: 15px;
-      max-width: 350px;
-      margin: 0 auto;
-  }
-  
-  .registro label {
-      display: block;
-      margin-bottom: 10px;
-  }
-  
-  #crear {
-      padding: 10px;
-      color: #b4cc4e;
-      font-size: 16px;
-      transform: .3s ease;
-      background-color: #4b0c3b;
-      border-radius: 10px;
-  }
-  
-  #crear:hover {
-      color: #4b0c3b;
-      background-color: #b4cc4e;
-  }
+      body {
+          margin: 0;
+          padding: 0;
+          background-color: #277647;
+      }
+      
+      header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #b4cc4e;
+          padding: 10px 20px;
+      }
+      
+      header .logo img {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          overflow: hidden;
+      }
+      
+      nav ul {
+          list-style: none;
+          display: flex;
+          gap: 30px;
+          float: right;
+          margin: 0px 10px;
+      }
+      
+      nav a {
+          text-decoration: none;
+          color: aliceblue;
+          font-style: italic;
+      }
+      
+      nav a:hover {
+          text-decoration-line: underline;
+      }
+      
+      .titulo {
+          font-size: 1rem;
+          font-style: italic;
+          color: aliceblue;
+      }
+      
+      .registro {
+          padding: 10px 20px;
+          background-color: #4b0c3b;
+          color: antiquewhite;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: left;
+      }
+      
+      .registro h2 {
+          display: flex;
+          letter-spacing: -1;
+          position: relative;
+          font-size: 3rem;
+          align-items: center;
+          color: #b4cc4e;
+          padding-left: 30px;
+          text-shadow: 2px 2px 2px #124a24;
+      }
+      
+      .registro form {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          margin: 0 auto;
+          padding: 20px 70px;
+          background: linear-gradient(170deg, #853a76, #277647);
+          max-width: 350px;
+          border-radius: 20px;
+      }
+      
+      .registro label {
+          font-size: 1.25rem;
+          display: block;
+          margin-bottom: 5px;
+          margin-top: 25px;
+      }
+      
+      #crear {
+          border: none;
+          padding: 10px;
+          color: #b4cc4e;
+          font-size: 16px;
+          transform: .3s ease;
+          background-color: #4b0c3b;
+          border-radius: 10px;
+      }
+      
+      #crear:hover {
+          color: #4b0c3b;
+          background-color: #b4cc4e;
+      }
