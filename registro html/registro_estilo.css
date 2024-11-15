@@ -37,7 +37,7 @@
           text-decoration-line: underline;
       }
       
-      .titulo {
+      header .titulo {
           font-size: 1rem;
           font-style: italic;
           color: aliceblue;
@@ -71,7 +71,7 @@
           margin: 0 auto;
           padding: 30px 70px;
           background: linear-gradient(170deg, #853a76, #277647);
-          max-width: 350px;
+          max-width: 400px;
           border-radius: 20px;
       }
       
@@ -83,7 +83,7 @@
       }
       
       .datos input {
-          width: 100%;
+          width: 90%;
           padding: 10px 15px;
           border: 1px solid #ccc;
           border-radius: 5px;
@@ -111,8 +111,7 @@
       
       .checkbox {
           display: flex;
-          flex-direction: row;
+          flex-direction: row-reverse;
           align-items: center;
-          gap: 10px;
-          justify-content: space-between;
+          gap: 20px;
       }
