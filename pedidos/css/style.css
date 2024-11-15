@@ -116,7 +116,7 @@ font-size: 20px;
     width: 1050px;
     height: 200px;
     grid-template-columns: 350px 350px 350px;
-    background-color: rgb(44, 110, 110);
+    background-color: aqua;
     justify-items: center;
     align-items: center;
     border-radius: 40px;
@@ -137,6 +137,10 @@ h2{
     background-color: rgb(102, 44, 110);
     align-items: center;
     border-radius: 40px;
+    transition: background-color 0.3s ease;
+}
+.caja_op:hover{
+    background-color:rgba(102, 44, 110, 0.281) ;
 }
 
 .numF{
@@ -165,4 +169,46 @@ select{
 select:hover{
     cursor: pointer;
 }
+
+#transicionCar{
+    width: 820px;
+    height: 290px;  
+}
+#carta{
+    display: grid;
+    width: 800px;
+    grid-template-rows: 70px 200px;
+    background-color: aqua;
+    justify-items: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+#cajaCarta{
+    display: grid;
+    width: 760px;
+    height: 200px;
+    grid-template-columns: 380px 380px ;
+    background-color: rgb(40, 87, 87);
+    justify-items: center;
+    border-radius: 40px;
+}
+.opCarta{
+    font-family: "calibri";
+    margin: 0 180px 0 0;
+    font-size: 23px;
+    height: 30px;
+}
+textarea{
+    margin: 15px 0;
+    height: 120px;
+    width: 350px;
+    resize: none;
+}
+
+.radio{
+    height: 20px;
+    width: 20px;
+}
+
 

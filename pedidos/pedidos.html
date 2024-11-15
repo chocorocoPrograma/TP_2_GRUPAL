@@ -164,19 +164,22 @@
     </section>
 
     <section class="caja_cent" id="cent_carta">
+        <div class="agranda" id="transicionCar">
         <div id="carta">
             <h2>Carta para acompañar su ramo</h2>
 
-            <label for="escribir">Escribir</label>
+            <div id="cajaCarta">
+            <div>
+            <label class="opCarta" for="escribir">Escribir</label>
             <textarea name="escribir" id="escribir" maxlength="300"></textarea>
-            <!--añadir   resize: none; para que no cambie de tamaño-->
+            </div>
 
             <div id="persCarta">
-                <a>Tipo de letra:</a>
+                <a class="opCarta">Tipo de letra:</a>
                 <label for="cursiva">Cursiva</label>
-                <input type="radio" name="tLetra" id="cursiva" value="cursiva">
+                <input class="radio" type="radio" name="tLetra" id="cursiva" value="cursiva">
                 <label for="imprenta">Imprenta</label>
-                <input type="radio" name="tLetra" id="imprenta" value="imprenta">
+                <input class="radio" type="radio" name="tLetra" id="imprenta" value="imprenta">
 
                 <label for="colorP">Color papel</label>
                 <select name="colorP" id="colorP">
@@ -226,7 +229,9 @@
                 </select>
             </div>
             </div>
+            </div>
         </div>
+    </div>
     </section>
 
     <section class="caja_cent" id="botonF">
