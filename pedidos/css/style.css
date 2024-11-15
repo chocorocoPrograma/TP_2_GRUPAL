@@ -53,25 +53,24 @@ nav a:hover {
     align-items: center;
     border-radius: 40px;
 }
-
-#agranda{
+#transicionIn{
+    width: 710px;
+    height: 260px;
+}
+.agranda{
     display: grid;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0);
-     width: 710px;
-    height: 260px;
     border-radius: 40px;
     transition: background-color 0.5s ease;
-
 }
-#agranda:hover{
+.agranda:hover{
     background-color: aqua;
 }
 
 h1{
     font-family: "calibri";
-    font: 50px;
     text-decoration: none;
     color: #284f52;
     font-size: 45px;
@@ -99,12 +98,71 @@ font-size: 20px;
     background-color: #ff0000;
 }
 
+#transicionFl{
+    width: 1070px;
+    height: 290px;
+}
 #flores{
     display: grid;
     width: 1050px;
-    grid-template-columns: 100px 40px 40px 70px;
+    grid-template-rows: 70px 200px;
     background-color: aqua;
     justify-items: center;
     align-items: center;
     border-radius: 40px;
 }
+#caja_flor{
+    display: grid;
+    width: 1050px;
+    height: 200px;
+    grid-template-columns: 350px 350px 350px;
+    background-color: rgb(44, 110, 110);
+    justify-items: center;
+    align-items: center;
+    border-radius: 40px;
+}
+h2{
+    font-family: "calibri";
+    text-decoration: none;
+    color: #284f52;
+    font-size: 28px;
+    margin: 0;
+}
+
+.caja_op{
+    display: grid;
+    width: 300px;
+    height: 180px;
+    grid-template-rows: 50px 50px 50px;
+    background-color: rgb(102, 44, 110);
+    align-items: center;
+    border-radius: 40px;
+}
+
+.numF{
+    font-family: "calibri";
+    color: #000000;
+    font-size: 25px;
+    margin: 0 120px;
+}
+
+label{
+    font-family: "calibri";
+    color: #000000;
+    font-size: 20px;
+    margin: 0 0 0 40px ;
+}
+label:hover{
+    cursor: pointer;
+}
+
+select{
+    height: 25px;
+    border: 2px solid white; 
+    border-radius: 10px;
+    margin: 0 20px;
+}
+select:hover{
+    cursor: pointer;
+}
+
