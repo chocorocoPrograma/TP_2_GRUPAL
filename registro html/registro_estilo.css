@@ -85,6 +85,8 @@
       .datos input {
           width: 100%;
           padding: 10px 15px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
       }
       
       .registro input::placeholder {
@@ -94,15 +96,23 @@
       #crear {
           border: none;
           padding: 10px;
-          color: #b4cc4e;
+          color: #124a24;
           font-size: 16px;
           transform: .3s ease;
-          background-color: #4b0c3b;
+          background-color: #b4cc4e;
           border-radius: 10px;
           cursor: pointer;
       }
       
       #crear:hover {
           color: #4b0c3b;
-          background-color: #b4cc4e;
+          background-color: #853a76;
+      }
+      
+      .checkbox {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 10px;
+          justify-content: space-between;
       }
