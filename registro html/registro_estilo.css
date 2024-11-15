@@ -82,6 +82,10 @@
           margin-top: 25px;
       }
       
+      .registro input::placeholder {
+          opacity: 0.5;
+      }
+      
       #crear {
           border: none;
           padding: 10px;
@@ -90,6 +94,7 @@
           transform: .3s ease;
           background-color: #4b0c3b;
           border-radius: 10px;
+          cursor: pointer;
       }
       
       #crear:hover {
