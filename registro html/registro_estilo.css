@@ -118,7 +118,13 @@
           opacity: 0.5;
       }
       
-      #crear {
+      .contenedor-botones {
+          display: flex;
+          justify-content: space-around;
+          margin: 5px;
+      }
+      
+      .enviar-cancelar {
           border: none;
           padding: 10px;
           color: #124a24;
@@ -129,7 +135,7 @@
           cursor: pointer;
       }
       
-      #crear:hover {
+      .enviar-cancelar:hover {
           color: #050405;
           background-color: #f5f5f5;
       }
