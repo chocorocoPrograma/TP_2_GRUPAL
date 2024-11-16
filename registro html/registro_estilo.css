@@ -43,6 +43,22 @@
           color: aliceblue;
       }
       
+      .contenido-inicio p {
+          text-align: center;
+          font-style: oblique;
+          height: 20px;
+          color: #6a48aa;
+          color: #3b275f;
+      }
+      
+      h1 {
+          font-family: Cambria;
+          font-size: 60px;
+          color: rgba(255, 255, 255, 0.959);
+          text-align: center;
+          text-shadow: 10px 10px 4px #cafff8;
+      }
+      
       .registro {
           padding: 10px 20px;
           background-color: #4b0c3b;
