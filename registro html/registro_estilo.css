@@ -9,7 +9,6 @@
       
       header {
           display: flex;
-          justify-content: space-between;
           align-items: center;
           background-color: #b4cc4e;
           padding: 5px 40px;
@@ -41,7 +40,8 @@
       }
       
       header .titulo {
-          text-align: left;
+          justify-content: left;
+          background-color: #124a24;
           font-size: 1rem;
           font-style: italic;
           color: aliceblue;
