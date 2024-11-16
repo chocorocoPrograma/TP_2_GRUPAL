@@ -17,6 +17,7 @@
       
       .contenedor-logotitulo {
           display: flex;
+          align-items: center;
       }
       
       header .logo img {
@@ -129,8 +130,8 @@
       }
       
       #crear:hover {
-          color: #4b0c3b;
-          background-color: #853a76;
+          color: #050405;
+          background-color: #f5f5f5;
       }
       
       .marcar {
