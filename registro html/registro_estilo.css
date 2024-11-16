@@ -115,3 +115,7 @@
           align-items: center;
           gap: 20px;
       }
+      
+      .marcar .checkbox {
+          cursor: pointer;
+      }
