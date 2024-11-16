@@ -1,6 +1,9 @@
-      body {
+      * {
           margin: 0;
           padding: 0;
+      }
+      
+      body {
           background-color: #4b0c3b;
       }
       
@@ -38,6 +41,7 @@
       }
       
       header .titulo {
+          text-align: left;
           font-size: 1rem;
           font-style: italic;
           color: aliceblue;
@@ -51,8 +55,6 @@
       }
       
       h1 {
-          margin: 0;
-          padding: 0;
           font-family: Cambria;
           font-size: 60px;
           color: rgba(255, 255, 255, 0.959);
@@ -61,7 +63,7 @@
       }
       
       .registro {
-          padding: 10px 20px;
+          padding: 50px 20px;
           background-color: #4b0c3b;
           color: antiquewhite;
           display: flex;
