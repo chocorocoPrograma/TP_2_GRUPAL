@@ -1,7 +1,7 @@
       body {
           margin: 0;
           padding: 0;
-          background-color: #277647;
+          background-color: #4b0c3b;
       }
       
       header {
@@ -9,7 +9,7 @@
           justify-content: space-between;
           align-items: center;
           background-color: #b4cc4e;
-          padding: 10px 20px;
+          padding: 5px 40px;
       }
       
       header .logo img {
@@ -22,7 +22,7 @@
       nav ul {
           list-style: none;
           display: flex;
-          gap: 30px;
+          gap: 20px;
           float: right;
           margin: 0px 10px;
       }
@@ -47,16 +47,17 @@
           text-align: center;
           font-style: oblique;
           height: 20px;
-          color: #6a48aa;
-          color: #3b275f;
+          color: #ffc600;
       }
       
       h1 {
+          margin: 0;
+          padding: 0;
           font-family: Cambria;
           font-size: 60px;
           color: rgba(255, 255, 255, 0.959);
           text-align: center;
-          text-shadow: 10px 10px 4px #cafff8;
+          text-shadow: 10px 10px 4px #853a76;
       }
       
       .registro {
