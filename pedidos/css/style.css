@@ -243,4 +243,9 @@ textarea{
     border-radius: 15px;
     background-color: blueviolet;
     margin: 0 10px;
+    transition: border-color 0.5s ease;
+}
+
+.opcionF:hover{
+    border-color: #ff0000;
 }
