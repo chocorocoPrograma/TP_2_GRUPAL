@@ -153,3 +153,14 @@
       .marcar .checkbox {
           cursor: pointer;
       }
+      
+      footer p {
+          font-style: oblique;
+          font-size: 15px;
+          color: #ffffffc7;
+          text-align: center;
+      }
+      
+      footer div:hover {
+          background: rgba(36, 143, 84, 0.945);
+      }
