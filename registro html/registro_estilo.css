@@ -1,0 +1,175 @@
+      * {
+          margin: 0;
+          padding: 0;
+      }
+      
+      body {
+          background-color: #4b0c3b;
+      }
+      
+      header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #b4cc4e;
+          padding: 5px 40px;
+      }
+      
+      .contenedor-logotitulo {
+          display: flex;
+          align-items: center;
+      }
+      
+      header .logo img {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          overflow: hidden;
+      }
+      
+      nav ul {
+          list-style: none;
+          display: flex;
+          gap: 20px;
+          float: right;
+          margin: 0px 10px;
+      }
+      
+      nav a {
+          text-decoration: none;
+          color: aliceblue;
+          font-style: italic;
+      }
+      
+      nav a:hover {
+          text-decoration-line: underline;
+      }
+      
+      header .titulo {
+          margin: 10px;
+          justify-content: left;
+          font-size: 1rem;
+          font-style: italic;
+          color: aliceblue;
+      }
+      
+      .contenedor-titulo p {
+          text-align: center;
+          font-style: oblique;
+          height: 20px;
+          color: #ffc600;
+      }
+      
+      h1 {
+          font-family: Cambria;
+          font-size: 60px;
+          color: rgba(255, 255, 255, 0.959);
+          text-align: center;
+          text-shadow: 10px 10px 4px #853a76;
+      }
+      
+      .registro {
+          padding: 50px 20px;
+          background-color: #4b0c3b;
+          color: antiquewhite;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: left;
+      }
+      
+      .registro h2 {
+          display: flex;
+          justify-content: center;
+          letter-spacing: -1;
+          position: relative;
+          font-size: 3rem;
+          align-items: center;
+          color: #b4cc4e;
+          padding-left: 30px;
+          text-shadow: 2px 2px 2px #124a24;
+      }
+      
+      .registro form {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          margin: 0 auto;
+          padding: 30px 70px;
+          background: linear-gradient(170deg, #853a76, #277647);
+          max-width: 400px;
+          border-radius: 20px;
+      }
+      
+      .registro label {
+          font-size: 1.25rem;
+          display: block;
+          margin-bottom: 5px;
+          margin-top: 25px;
+          cursor: pointer;
+          transition: 0.4s;
+      }
+      
+      .registro label:hover {
+          text-shadow: 1px 1px 1px #5b0f4b;
+          animation: infinite;
+          transform: scale(1.05) translateY(-1px);
+      }
+      
+      .datos input {
+          width: 90%;
+          padding: 10px 15px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+      
+      .registro input::placeholder {
+          opacity: 0.5;
+      }
+      
+      .contenedor-botones {
+          display: flex;
+          justify-content: space-around;
+          margin: 5px;
+          padding: 3px;
+      }
+      
+      .enviar-cancelar {
+          border: none;
+          padding: 15px;
+          color: #124a24;
+          font-size: 16px;
+          transition: 0.2s;
+          background-color: #b4cc4e;
+          border-radius: 15px;
+          cursor: pointer;
+      }
+      
+      .enviar-cancelar:hover {
+          color: #050405;
+          background-color: #f5f5f5;
+          animation: infinite;
+          transform: scale(1.1) translateY(-1px);
+      }
+      
+      .marcar {
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          gap: 20px;
+      }
+      
+      .marcar .checkbox {
+          cursor: pointer;
+      }
+      
+      footer p {
+          font-style: oblique;
+          font-size: 15px;
+          color: #ffffffc7;
+          text-align: center;
+      }
+      
+      footer div:hover {
+          background: rgba(36, 143, 84, 0.945);
+      }
