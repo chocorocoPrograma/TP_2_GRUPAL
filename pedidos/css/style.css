@@ -263,9 +263,11 @@ textarea{
     border-radius: 15px;
     background-color: #89b98b;
     margin: 0 10px;
-    transition: border-color 0.5s ease;
+    transition: border-color 0.3s;
 }
 
 .opcionF:hover{
     border-color: #c4ebc5;
+    transform: scale(1.05) translateY(-1px);
+    box-shadow: 5px 5px 5px#1853365b;
 }
