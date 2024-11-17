@@ -33,6 +33,15 @@ nav a:hover {
     text-decoration-line: underline;
 }
 
+#nomEmp{
+    position: absolute;
+    text-decoration: none;
+    color: aliceblue;
+    font-style: bolder;
+    font-size: 25px;
+    margin: 0 70px;
+}
+
 @font-face {
     font-family: "calibri";
     src: url("../../css/fuentes/calibri_freefontdownload_org/calibri.ttf");
