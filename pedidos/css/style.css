@@ -5,10 +5,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(36, 143, 84, 0.945);
+    background-color: #afca34;
     padding: 5px 40px;
 }
 
+#headerPrin{
+    box-shadow: 10px 10px 4px #0d964498 ;
+
+}
 header .logo img {
     height: 50px;
     width: 50px;
@@ -103,12 +107,14 @@ font-size: 20px;
     border: 3px solid #ffc600 ;
     border-radius: 20px;
     background-color:  #ffc80083;
-    transition: background-color 0.3s ease;
+    transition:0.2s;
 }
 
 #linkCat:hover{
     text-decoration: underline;
     background-color: #ffc600;
+    transform: scale(1.05) translateY(-1px);
+    box-shadow: 5px 5px 5px#1853365b;
 }
 
 #transicionFl{
