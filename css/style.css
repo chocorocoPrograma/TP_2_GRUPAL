@@ -335,6 +335,7 @@ span {
     background-color: #ffc600;
     animation: infinite;
     transform: scale(1.1) translateY(-1px);
+    box-shadow: 5px 5px 5px#4a0e3b;
 }
 
 

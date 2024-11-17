@@ -99,6 +99,7 @@
           background: linear-gradient(170deg, #853a76, #277647);
           max-width: 400px;
           border-radius: 20px;
+          box-shadow: 7px 7px 7px#36092b;
       }
       
       .registro label {
@@ -150,6 +151,7 @@
           background-color: #ffc600;
           animation: infinite;
           transform: scale(1.1) translateY(-1px);
+          box-shadow: 5px 5px 5px#185336;
       }
       
       .marcar {
