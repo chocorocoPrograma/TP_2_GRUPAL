@@ -75,7 +75,7 @@ nav a:hover {
 h1{
     font-family: "calibri";
     text-decoration: none;
-    color: #284f52;
+    color: #0b4221;
     font-size: 45px;
     margin: 0;
 }
@@ -128,7 +128,7 @@ font-size: 20px;
 h2{
     font-family: "calibri";
     text-decoration: none;
-    color: #284f52;
+    color: #0b4221 ;
     font-size: 28px;
     margin: 0;
 }
@@ -149,14 +149,14 @@ h2{
 
 .numF{
     font-family: "calibri";
-    color: #000000;
+    color: #063117;
     font-size: 25px;
     margin: 0 120px;
 }
 
 label{
     font-family: "calibri";
-    color: #000000;
+    color: #032912;
     font-size: 20px;
     margin: 0 0 0 40px ;
 }
@@ -199,6 +199,7 @@ select:hover{
 .opCarta{
     font-family: "calibri";
     margin: 0 200px 0 0;
+    color: #032912;
     font-size: 23px;
     height: 30px;
 }
@@ -240,6 +241,7 @@ textarea{
 }
 
 .opcionF{
+    color: #032912;
     font-size: 18px;
     padding: 8px 18px;
     border: 3px solid  #89b98b;
