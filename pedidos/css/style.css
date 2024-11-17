@@ -103,8 +103,8 @@ font-size: 20px;
 }
 
 #transicionFl{
-    width: 1070px;
-    height: 290px;
+    width: 1060px;
+    height: 280px;
 }
 #flores{
     display: grid;
@@ -144,7 +144,7 @@ h2{
     transition: background-color 0.3s ease;
 }
 .caja_op:hover{
-    background-color: #88d88b;
+    background-color: #0da512;
 }
 
 .numF{
@@ -175,8 +175,8 @@ select:hover{
 }
 
 #transicionCar{
-    width: 820px;
-    height: 290px;  
+    width: 810px;
+    height: 280px;  
 }
 #carta{
     display: grid;
