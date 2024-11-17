@@ -80,6 +80,7 @@
       
       .registro h2 {
           display: flex;
+          justify-content: center;
           letter-spacing: -1;
           position: relative;
           font-size: 3rem;
@@ -105,6 +106,7 @@
           display: block;
           margin-bottom: 5px;
           margin-top: 25px;
+          cursor: pointer;
       }
       
       .datos input {
@@ -122,16 +124,17 @@
           display: flex;
           justify-content: space-around;
           margin: 5px;
+          padding: 3px;
       }
       
       .enviar-cancelar {
           border: none;
-          padding: 10px;
+          padding: 15px;
           color: #124a24;
           font-size: 16px;
           transform: .3s ease;
           background-color: #b4cc4e;
-          border-radius: 10px;
+          border-radius: 15px;
           cursor: pointer;
       }
       
