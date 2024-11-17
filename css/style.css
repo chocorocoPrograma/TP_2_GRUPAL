@@ -61,65 +61,11 @@ h1 {
     font-size: 60px;
     color: rgba(255, 255, 255, 0.959);
     text-align: center;
-    text-shadow: 10px 10px 4px #853a76;
+    text-shadow: 10px 10px 4px #4b0c3b;
 }
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #b4cc4e;
-    padding: 5px 40px;
-}
-
-header .logo img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    float: right;
-    margin: 0px 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: aliceblue;
-    font-style: italic;
-}
-
-nav a:hover {
-    text-decoration-line: underline;
-}
-
-.contenido-inicio p {
-    text-align: center;
-    font-style: oblique;
-    height: 20px;
-    color: #ffc600;
-}
-
-h1 {
-    font-family: Cambria;
-    font-size: 60px;
-    color: #fff6fd;
-    text-align: center;
-    text-shadow: 10px 10px 4px #360c31;
-}*/
 
 body {
-    background: linear-gradient(135deg, #4b0c3b, #277647);
+    background-color: #853a76;
 }
 
 #centrarCaja {
@@ -218,7 +164,7 @@ body {
 }
 
 span {
-    color: #284f52;
+    color: #ecfeff;
     font-family: "calibri";
     font: bold solid 10px;
     padding: 10px;
@@ -329,12 +275,13 @@ span {
 /* estilo para seccion registro */
 
 #registrarse {
-    color: #1f3644;
+    color: #e1f4ff;
     margin: 20px;
     padding: 20px 20px;
     text-align: center;
-    background: linear-gradient(100deg, #853a76, #ffc600);
+    background: linear-gradient(100deg, #853a76, #4b0c3b);
     border-radius: 10px;
+    box-shadow: 4px 4px 4px#4f0d3e;
 }
 
 
@@ -373,21 +320,17 @@ span {
     color: #ffffff;
     font-size: 1em;
     font-weight: bold;
-    background: #3b275f;
+    background: #006c34;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.2s;
-}
-
-footer div:hover {
-    background: rgba(36, 143, 84, 0.945);
 }
 
 
 /*Pestaña Categoria*/
 
 .button:hover {
-    background-color: #006c34;
+    background-color: #ffc600;
     animation: infinite;
     transform: scale(1.1) translateY(-1px);
 }
