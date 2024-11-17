@@ -146,8 +146,8 @@
       }
       
       .enviar-cancelar:hover {
-          color: #050405;
-          background-color: #f5f5f5;
+          color: #ffffc7;
+          background-color: #ffc600;
           animation: infinite;
           transform: scale(1.1) translateY(-1px);
       }

@@ -241,12 +241,13 @@ span {
 /* estilo para seccion Informacion sobre los ramos */
 
 #info-ramos {
-    color: #c3c3c3;
+    color: #ffd8f0;
     margin: 20px;
     padding: 20px 20px;
     text-align: left;
-    background-color: #853a76;
+    background-color: #a25087;
     border-radius: 10px;
+    box-shadow: 4px 4px 4px#4f0d3e;
 }
 
 #info-ramos h2 {
@@ -267,19 +268,20 @@ span {
     margin: 20px;
     padding: 20px 20px;
     text-align: left;
-    background-color: #853a76;
+    background-color: #9a488f;
     border-radius: 10px;
+    box-shadow: 4px 4px 4px#60134d;
 }
 
 
 /* estilo para seccion registro */
 
 #registrarse {
-    color: #e1f4ff;
+    color: #ffd8f0;
     margin: 20px;
     padding: 20px 20px;
     text-align: center;
-    background: linear-gradient(100deg, #853a76, #4b0c3b);
+    background-color: #622252;
     border-radius: 10px;
     box-shadow: 4px 4px 4px#4f0d3e;
 }
