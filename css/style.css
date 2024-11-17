@@ -268,7 +268,7 @@ span {
 }
 
 
-/* estilo para seccion registro */
+/* estilo para seccion registro 
 
 #registrarse {
     color: #1f3644;
@@ -278,16 +278,18 @@ span {
     background: linear-gradient(90deg, #28b18c, #00e691);
     border-radius: 10px;
 }
+*/
 
 
-/* CSS para el tamaño del titulo */
+/* CSS para el tamaño del titulo 
 
 #registrarse h2 {
     font-size: 1.5rem;
 }
+*/
 
 
-/* CSS para el tamaño de los parrafos */
+/* CSS para el tamaño de los parrafos 
 
 #registrarse p,
 #nosotros p,
@@ -295,9 +297,10 @@ span {
     padding: 10px;
     font-size: 1rem;
 }
+*/
 
 
-/* Para cambiar largo de la barra del formulario */
+/* Para cambiar largo de la barra del formulario 
 
 .registrarse form {
     max-width: 600px;
@@ -326,6 +329,7 @@ span {
     border: 1px solid #1f3644;
     background: linear-gradient(135deg, rgb(0, 204, 99), #9248ad);
 }
+*/
 
 
 /*pie de pagina*/
