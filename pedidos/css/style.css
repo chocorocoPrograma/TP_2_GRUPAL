@@ -51,7 +51,7 @@ nav a:hover {
     display: grid;
     width: 700px;
     grid-template-rows: 100px 40px 40px 70px;
-    background-color: aqua;
+    background-color: #89b98b;
     justify-items: center;
     align-items: center;
     border-radius: 40px;
@@ -69,7 +69,7 @@ nav a:hover {
     transition: background-color 0.5s ease;
 }
 .agranda:hover{
-    background-color: aqua;
+    background-color: rgba(255, 255, 255, 0.377);
 }
 
 h1{
@@ -109,7 +109,7 @@ font-size: 20px;
     display: grid;
     width: 1050px;
     grid-template-rows: 70px 200px;
-    background-color: aqua;
+    background-color:#89b98b;
     justify-items: center;
     align-items: center;
     border-radius: 40px;
@@ -119,7 +119,7 @@ font-size: 20px;
     width: 1050px;
     height: 200px;
     grid-template-columns: 350px 350px 350px;
-    background-color: aqua;
+    background-color: #89b98b;
     justify-items: center;
     align-items: center;
     border-radius: 40px;
@@ -181,7 +181,7 @@ select:hover{
     display: grid;
     width: 800px;
     grid-template-rows: 70px 200px;
-    background-color: aqua;
+    background-color:#89b98b;
     justify-items: center;
     align-items: center;
     border-radius: 40px;
@@ -192,7 +192,6 @@ select:hover{
     width: 760px;
     height: 200px;
     grid-template-columns: 380px 380px ;
-    background-color: rgb(40, 87, 87);
     justify-items: center;
     border-radius: 40px;
 }
