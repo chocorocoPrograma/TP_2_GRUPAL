@@ -88,17 +88,18 @@ font-size: 20px;
 #linkCat{
     font-family: "calibri";
     font-size: 20px;
+    color: #284f52;
     text-decoration: none;
     padding: 10px 20px;
-    border: 3px solid #ff0000 ;
+    border: 3px solid #ffc600 ;
     border-radius: 20px;
-    background-color: blueviolet;
+    background-color:  #ffc80083;
     transition: background-color 0.3s ease;
 }
 
 #linkCat:hover{
     text-decoration: underline;
-    background-color: #ff0000;
+    background-color: #ffc600;
 }
 
 #transicionFl{
