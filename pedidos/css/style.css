@@ -166,12 +166,23 @@ h2{
     background-color: #0da512;
 }
 
+.contTitFLor{
+    display: grid;
+    justify-items: center;
+}
 .numF{
     font-family: "calibri";
-    color: #063117;
+    color: #4b0c3b;
     font-size: 25px;
-    margin: 0 120px;
+    margin: 0 0px;
+    text-shadow:3px 3px 4px #27062033;
 }
+.florcita{
+    font-size: 15px;
+    color: #a1328b;
+
+}
+
 
 label{
     font-family: "calibri";
