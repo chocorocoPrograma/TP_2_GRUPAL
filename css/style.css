@@ -268,7 +268,7 @@ span {
 }
 
 
-/* estilo para seccion registro 
+/* estilo para seccion registro */
 
 #registrarse {
     color: #1f3644;
@@ -278,18 +278,16 @@ span {
     background: linear-gradient(90deg, #28b18c, #00e691);
     border-radius: 10px;
 }
-*/
 
 
-/* CSS para el tamaño del titulo 
+/* CSS para el tamaño del titulo */
 
 #registrarse h2 {
     font-size: 1.5rem;
 }
-*/
 
 
-/* CSS para el tamaño de los parrafos 
+/* CSS para el tamaño de los parrafos */
 
 #registrarse p,
 #nosotros p,
@@ -297,30 +295,9 @@ span {
     padding: 10px;
     font-size: 1rem;
 }
-*/
 
 
-/* Para cambiar largo de la barra del formulario 
-
-.registrarse form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.registrarse label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.registrarse #nombre,
-.registrarse #contra {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #1f3644;
-    border-radius: 10px;
-}
+/* Para cambiar largo de la barra del formulario */
 
 .registrarse #registrarse {
     width: 30%;
@@ -329,7 +306,26 @@ span {
     border: 1px solid #1f3644;
     background: linear-gradient(135deg, rgb(0, 204, 99), #9248ad);
 }
-*/
+
+.button {
+    margin: 10px;
+    width: 100px;
+    padding: 0.6em;
+    border: 0;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    background: #3b275f;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #006c34;
+    animation: infinite;
+    transform: scale(1.1) translateY(-1px);
+}
 
 
 /*pie de pagina*/
