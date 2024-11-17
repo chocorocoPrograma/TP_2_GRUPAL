@@ -11,6 +11,73 @@ header {
     padding: 5px 40px;
 }
 
+.contenedor-logotitulo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    float: right;
+    margin: 0px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-style: italic;
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+}
+
+header .titulo {
+    margin: 10px;
+    justify-content: left;
+    font-size: 1rem;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.contenedor-titulo p {
+    text-align: center;
+    font-style: oblique;
+    height: 20px;
+    color: #ffc600;
+}
+
+h1 {
+    font-family: Cambria;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.959);
+    text-align: center;
+    text-shadow: 10px 10px 4px #853a76;
+}
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b4cc4e;
+    padding: 5px 40px;
+}
+
 header .logo img {
     height: 50px;
     width: 50px;
@@ -40,32 +107,19 @@ nav a:hover {
     text-align: center;
     font-style: oblique;
     height: 20px;
-    color: #6a48aa;
-    color: #3b275f;
+    color: #ffc600;
 }
 
 h1 {
-    font-family:'Franklin Gothic Medium';
-    font-size: 50px;
-    color:#4b0c3b;
+    font-family: Cambria;
+    font-size: 60px;
+    color: #fff6fd;
     text-align: center;
-    text-shadow: 10px 10px 4px #cafff8;
-}
+    text-shadow: 10px 10px 4px #360c31;
+}*/
 
 body {
-<<<<<<< HEAD
-    background: #853a76;
-=======
-    background: #65d4b6;
->>>>>>> registroUsuario
-}
-
-body {
-    background: linear-gradient(20deg, #00bbff, #3ae9d5);
-}
-
-body {
-    background: #65d4b6;
+    background: linear-gradient(135deg, #4b0c3b, #277647);
 }
 
 #centrarCaja {
@@ -133,7 +187,7 @@ body {
     font: 50px;
     padding: 20px;
     text-decoration: none;
-    color: #284f52;
+    color: #b4cc4e;
     font-size: 35px;
 }
 
@@ -241,11 +295,11 @@ span {
 /* estilo para seccion Informacion sobre los ramos */
 
 #info-ramos {
-    color: #1f3644;
+    color: #c3c3c3;
     margin: 20px;
     padding: 20px 20px;
     text-align: left;
-    background-color: #88ead0;
+    background-color: #853a76;
     border-radius: 10px;
 }
 
@@ -263,11 +317,11 @@ span {
 }
 
 #nosotros {
-    color: #1f3644;
+    color: #ffd8f0;
     margin: 20px;
     padding: 20px 20px;
     text-align: left;
-    background-color: #28b18c;
+    background-color: #853a76;
     border-radius: 10px;
 }
 
@@ -279,7 +333,7 @@ span {
     margin: 20px;
     padding: 20px 20px;
     text-align: center;
-    background: linear-gradient(90deg, #28b18c, #00e691);
+    background: linear-gradient(100deg, #853a76, #ffc600);
     border-radius: 10px;
 }
 
@@ -325,13 +379,13 @@ span {
     transition: 0.2s;
 }
 
-<<<<<<< HEAD
-footer div:hover{
-    background:  rgba(36, 143, 84, 0.945);
-}    
+footer div:hover {
+    background: rgba(36, 143, 84, 0.945);
+}
+
 
 /*Pestaña Categoria*/
-=======
+
 .button:hover {
     background-color: #006c34;
     animation: infinite;
@@ -351,4 +405,3 @@ footer p {
 footer div:hover {
     background: rgba(36, 143, 84, 0.945);
 }
->>>>>>> registroUsuario
